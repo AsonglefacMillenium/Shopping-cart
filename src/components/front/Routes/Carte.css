@@ -1,0 +1,114 @@
+.cart-items{
+    margin: 30px auto;
+    border: 2px solid black;
+    background-color: orange;
+    border-radius: 5px;
+    width: 60%;
+}
+
+.cart-items-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    border-bottom: 2px solid black;
+}
+.cart-items-empty{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 18px;
+font-weight: 700;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+
+.cart-items-image{
+    width: 100px;
+    height: auto;
+    border:  2px solid black;
+    margin-right: 5px;
+}
+
+.cart-items-list{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.cart-items-name,
+.cart-items-function{
+    width: 25%;
+}
+
+.cart-items-add,
+.cart-items-remove{
+    margin-right: 15px;
+    width: 30px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 18px;
+    color: white;
+}
+
+.cart-items-add{
+    background-color: red;
+}
+
+.cart-items-remove{
+    background-color: green;
+}
+
+.cart-items-remove:active{
+    transform: translateY(1.2px);
+}
+.cart-items-remove:active{
+    transform: translateY(1.2px);
+}
+
+.cart-items-total-price-name{
+    display: flex;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 45%;
+    border-top: 2px solid black;
+    font-size: 18px;
+}
+
+.cart-items-total-price{
+    display: flex;
+    padding-left: 10px;
+}
+
+.cart-items-price{
+    font-size: 18px;
+    padding-left: 10px;
+}
+.clear-cart-button{
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    height: 30px;
+    width: 100px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.clear-cart-button:hover{
+    background-color: grey;
+}
+
+.cart-clear{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
