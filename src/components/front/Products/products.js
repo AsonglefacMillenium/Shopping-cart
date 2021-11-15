@@ -74,7 +74,7 @@ return(
                 </div>
                <div>
                    <h2 className="product-name">{product.name}</h2>
-                   <h3 className="product-price">{product.price}</h3>
+                   <h3 className="product-price">${product.price}</h3>
                </div>
                <div>
                    <button className="button-add-to" onClick={()=> handleAddProduct(product)}>
